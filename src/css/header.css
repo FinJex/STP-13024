@@ -76,6 +76,20 @@
   display: none;
 }
 
+.footer__play-icon {
+  width: 38px;
+  height: 38px;
+  fill: #0b0e14;
+  flex-shrink: 0;
+}
+
+.header__play-icon {
+  width: 24px;
+  height: 24px;
+  fill: #0b0e14;
+  flex-shrink: 0;
+}
+
 .header__burger {
   display: inline-flex;
   flex-direction: column;
