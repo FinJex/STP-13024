@@ -12,11 +12,11 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./footer.css');
+@import url('./hero.css');
 @import url('./about.css');
 @import url('./advantages.css');
 @import url('./faq.css');
 @import url('./gallery.css');
 @import url('./how-to-play.css');
-@import url('./hero.css');
 @import url('./privacy.css');
 @import url('./terms.css');

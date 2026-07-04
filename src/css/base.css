@@ -23,6 +23,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #ffffff;
+
 }
 
 main {
@@ -30,4 +32,34 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+.page {
+  position: relative;
+
+  width: 375px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    width: 1440px;
+    max-width: 1440px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .page {
+    max-width: 1440px;
+  }
 }

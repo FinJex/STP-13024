@@ -1,8 +1,48 @@
 <section class="hero" id="hero">
-<div class="container">
-<h1 class="hero-title">Find Matches Faster Than Ever.</h1>
-<p class="hero-subheadline">Relaxing 3D puzzle gameplay with satisfying object sorting.</p>
-  <a  class="hero-link" href=""></a>
-</div>
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">Find Matches Faster Than Ever.</h1>
 
+      <p class="hero__text">
+        Relaxing 3D puzzle gameplay with satisfying object sorting.
+      </p>
+
+      <a class="hero__play" href="https://play.google.com/store/apps/details?id=com.matching.puzzle.free.game"
+        target="_blank" rel="noopener noreferrer" aria-label="Play Mighty Match on Google Play">
+        <svg class="hero__play-icon" aria-hidden="true">
+          <use href="./img/sprite.svg#icon-google-play"></use>
+        </svg>
+        <span>Play on Google Play</span>
+      </a>
+
+      <ul class="hero__stats" aria-label="Game statistics">
+        <li class="hero__stat">
+          <strong class="hero__stat-value">700+</strong>
+          <span class="hero__stat-label">Levels</span>
+        </li>
+
+        <li class="hero__stat">
+          <strong class="hero__stat-value">
+            4.8 <span aria-hidden="true">★</span>
+          </strong>
+          <span class="hero__stat-label">Rating</span>
+        </li>
+
+        <li class="hero__stat">
+          <strong class="hero__stat-value">500K+</strong>
+          <span class="hero__stat-label">Downloads</span>
+        </li>
+      </ul>
+    </div>
+
+    <picture class="hero__picture">
+      <source srcset="
+          ./img/hero/main-img_1x_m.png 1x,
+          ./img/hero/main-img_2x_m.png 2x
+        " media="(max-width: 1439px)" />
+
+      <img class="hero__image" src="./img/hero/main-img_1x_m.png" alt="Mighty Match 3D puzzle gameplay" width="265"
+        height="268" />
+    </picture>
+  </div>
 </section>
