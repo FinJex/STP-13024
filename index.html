@@ -12,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <script type="module" crossorigin src="/STP-13024/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-13024/assets/index-BLj83mTt.css">
+    <link rel="stylesheet" crossorigin href="/STP-13024/assets/index-BNsn3cSh.css">
   </head>
   <body>
-    <header>
-      <header class="header" data-header>
+    <div class="page">
+      <header>
+        <header class="header" data-header>
   <div class="header__container">
     <a class="header__logo" href="./index.html" aria-label="Mighty Match home">
       <img class="header__logo-img" src="/STP-13024/assets/logo_1x_d-CmMN6_Sk.png" srcset="/STP-13024/assets/logo_1x_d-CmMN6_Sk.png 1x, /STP-13024/assets/logo_2x_d-Bs9SlSoY.png 2x"
@@ -88,20 +89,55 @@
     </div>
   </div>
 </header>
-    </header>
+      </header>
 
-    <main>
       <main>
-  <section id="hero" class="hero">
-    <div class="container">
-      <h1>Find Matches Faster Than Ever.</h1>
-      <p>Relaxing 3D puzzle gameplay with satisfying object sorting.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.matching.puzzle.free.game" target="_blank"
-        rel="noopener noreferrer">
-        Play on Google Play
+        <section class="hero" id="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">Find Matches Faster Than Ever.</h1>
+
+      <p class="hero__text">
+        Relaxing 3D puzzle gameplay with satisfying object sorting.
+      </p>
+
+      <a class="hero__play" href="https://play.google.com/store/apps/details?id=com.matching.puzzle.free.game"
+        target="_blank" rel="noopener noreferrer" aria-label="Play Mighty Match on Google Play">
+        <svg class="hero__play-icon" aria-hidden="true">
+          <use href="/STP-13024/assets/sprite-6t4okYDa.svg#icon-google-play"></use>
+        </svg>
+        <span>Play on Google Play</span>
       </a>
+
+      <ul class="hero__stats" aria-label="Game statistics">
+        <li class="hero__stat">
+          <strong class="hero__stat-value">700+</strong>
+          <span class="hero__stat-label">Levels</span>
+        </li>
+
+        <li class="hero__stat">
+          <strong class="hero__stat-value">
+            4.8 <span aria-hidden="true">★</span>
+          </strong>
+          <span class="hero__stat-label">Rating</span>
+        </li>
+
+        <li class="hero__stat">
+          <strong class="hero__stat-value">500K+</strong>
+          <span class="hero__stat-label">Downloads</span>
+        </li>
+      </ul>
     </div>
-  </section>
+
+    <picture class="hero__picture">
+      <source srcset="/STP-13024/assets/main-img_1x_m-DC0otzRF.png 1x, /STP-13024/assets/main-img_2x_m-DSoyb-Bm.png 2x" media="(max-width: 1439px)" />
+
+      <img class="hero__image" src="/STP-13024/assets/main-img_1x_m-DC0otzRF.png" alt="Mighty Match 3D puzzle gameplay" width="265"
+        height="268" />
+    </picture>
+  </div>
+</section>
+        <main>
 
   <section id="about" class="section">
     <div class="container">
@@ -139,10 +175,10 @@
     </div>
   </section>
 </main>
-    </main>
+      </main>
 
-    <footer>
-      <footer class="footer" id="contact">
+      <footer>
+        <footer class="footer" id="contact">
   <div class="container footer__container">
     <div class="footer__content">
       <p class="footer__cta">Ready to master the next puzzle board?</p>
@@ -189,7 +225,7 @@
     </div>
   </div>
 </footer>
-    </footer>
-
+      </footer>
+    </div>
   </body>
 </html>
