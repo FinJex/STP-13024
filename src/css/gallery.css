@@ -1,15 +1,24 @@
 .gallery {
-  padding-bottom: 64px;
-  background-color: #E1E8ED;
+  padding-bottom: 35px;
+  background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
 }
 
-    .gallery-title {
-      font-size: 28px;
-      font-weight: 700;
-      text-align: center;
-      color: #0B0E14;
-      margin-bottom: 16px;
-    }
+.gallery_container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 32px 0;
+  box-sizing: border-box;
+}
+
+.gallery-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #0B0E14;
+  padding-bottom: 16px;
+  margin: 0 auto;
+}
 
     body {
         font-family:

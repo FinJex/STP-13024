@@ -1,5 +1,6 @@
 .advantages {
   width: 100%;
+  padding: 0;
 
   background: linear-gradient(270deg,
       #e1e8ed 0%,
@@ -99,7 +100,7 @@
 @media screen and (min-width: 1440px) {
   .advantages {
     min-height: 620px;
-    padding: 150px 0 96px;
+    padding: 120px 0 96px;
   }
 
   .advantages__container {
