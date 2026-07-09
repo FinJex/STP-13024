@@ -5,10 +5,7 @@
   background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
 }
 
-.how-to-play__container {
-margin: 0 auto;
-padding: 0;
-}
+
 
 
 .all-img-container {
@@ -33,6 +30,7 @@ margin: 0 ;
   text-align: center;
   line-height: 1;
   width: 337px;
+
 }
 
 .img {
