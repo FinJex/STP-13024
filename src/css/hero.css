@@ -89,7 +89,7 @@
   background-color:#f7f9fc;
 }
 
-.hero__star {
+/* .hero__star {
   display: block;
   flex-shrink: 0;
 
@@ -104,7 +104,7 @@
   fill: currentColor;
 
   overflow: visible;
-}
+} */
 
 .hero__stat:nth-child(1) {
   width: 77px;
@@ -120,13 +120,15 @@
 
 .hero__stat-value {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: flex-start;
   gap: 4px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
   color: var(--bg-footer);
+  min-width: max-content;
 }
 
 .hero__stat-label {
@@ -136,6 +138,20 @@
   font-size: 14px;
   line-height: 1.1;
   color: var(--text-main);
+}
+
+.hero__star {
+  display: block;
+  flex-shrink: 0;
+
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  margin-left: 0;
+
+  fill: currentColor;
+  overflow: visible;
 }
 
 .hero__play {

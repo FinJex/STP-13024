@@ -27,33 +27,33 @@ html {
   margin: 0 auto;
 }
 
-    body {
-        font-family:
-          Helvetica Neue,
-          Helvetica,
-          Arial,
-          sans-serif;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-      }
+body {
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
 
-      .swiper {
-        width: 100%;
-          position: relative;
-            overflow: visible;
+.swiper {
+  width: 100%;
+  position: relative;
+  overflow: visible;
 
-      }
+}
 
-      .swiper-slide {
+.swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
-gap: 32px;
-      }
+  gap: 32px;
+}
 
-      .swiper-slide img {
+.swiper-slide img {
   display: block;
   width: 100%;
   height: auto;
