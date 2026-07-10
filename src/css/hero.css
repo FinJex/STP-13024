@@ -142,6 +142,7 @@
   overflow: visible;
   pointer-events: none;
 }
+
 .hero__star-test {
   position: relative;
   z-index: 23;
