@@ -1,6 +1,7 @@
 .faq {
   width: 100%;
   padding: 32px 0 32px;
+  scroll-margin-top: 144px;
   background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
 }
 
@@ -99,6 +100,7 @@
 @media screen and (min-width: 1440px) {
   .faq {
     padding: 120px 0;
+    scroll-margin-top: 83px;
   }
 
   .faq__container {

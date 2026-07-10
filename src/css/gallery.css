@@ -6,14 +6,14 @@ html {
 .gallery {
   padding-bottom: 35px;
   background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
-  scroll-margin-top: 80px
+  scroll-margin-top: 144px
 }
 
 .gallery_container {
   width: 100%;
   max-width: 375px;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 32px 16px;
   box-sizing: border-box;
   position: relative;
 }
@@ -98,12 +98,13 @@ gap: 32px;
   }
 
   .gallery {
-    padding-bottom: 120px;
-     scroll-margin-top: 90px;
+    padding: 0;
+    scroll-margin-top: 83px;
   }
 
   .gallery_container {
     position: relative;
+    padding: 120px 0;
   }
 
 .my-gallery-next,
@@ -111,7 +112,7 @@ gap: 32px;
     display: flex !important;
   }
 
- .my-gallery-prev {
+.my-gallery-prev {
     left: 0;
   }
   .my-gallery-next {

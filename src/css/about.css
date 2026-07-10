@@ -1,7 +1,7 @@
 .about {
   width: 375px;
   padding: 0;
-  scroll-margin-top: 120px;
+  scroll-margin-top: 144px;
   background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
 }
 
@@ -46,7 +46,7 @@
 @media screen and (min-width: 1440px) {
   .about {
     width: 100%;
-
+    scroll-margin-top: 83px;
     background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
   }
 
