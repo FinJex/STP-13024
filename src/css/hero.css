@@ -89,23 +89,6 @@
   background-color:#f7f9fc;
 }
 
-/* .hero__star {
-  display: block;
-  flex-shrink: 0;
-
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
-  min-height: 16px;
-
-  margin-left: 0;
-
-  color: #FFD93D;
-  fill: currentColor;
-
-  overflow: visible;
-} */
-
 .hero__stat:nth-child(1) {
   width: 77px;
 }
@@ -142,6 +125,7 @@
 
 .hero__star {
   display: block;
+  z-index: 23;
   flex-shrink: 0;
 
   width: 16px;
@@ -152,6 +136,11 @@
 
   fill: currentColor;
   overflow: visible;
+  color: #ffd93d;
+  fill: currentColor;
+
+  overflow: visible;
+  pointer-events: none;
 }
 
 .hero__play {
