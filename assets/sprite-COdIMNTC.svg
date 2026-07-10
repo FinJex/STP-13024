@@ -37,12 +37,12 @@
         stroke-linejoin="round"
       />
 
-<svg id="icon-left" width="25" height="40" viewBox="0 0 25 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="icon-left" width="25" height="40" viewBox="0 0 25 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M24.583 34.4168L9.83301 19.6668L24.583 4.91683L19.6663 0.000160217L-0.000324249 19.6668L19.6663 39.3335L24.583 34.4168Z" fill="#2D3436"/>
-</svg>
+</symbol>
 
-<svg id="icon-right" width="25" height="40" viewBox="0 0 25 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="icon-right" width="25" height="40" viewBox="0 0 25 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 35L15 20L0 5L5 0L25 20L5 40L0 35Z" fill="#2D3436"/>
-</svg>
+</symbol>
     </symbol>
   </defs>
