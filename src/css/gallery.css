@@ -6,7 +6,7 @@ html {
 .gallery {
   padding-bottom: 35px;
   background: linear-gradient(270deg, #e1e8ed 0%, #fff 50%, #e1e8ed 100%);
-  scroll-margin-top: 80px
+  scroll-margin-top: 150px
 }
 
 .gallery_container {
